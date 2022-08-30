@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/all.min.css" />
+    <link rel="stylesheet" href="/gaming-web/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600&family=Lexend+Deca:wght@300;400;500;700;800;900&family=Lexend:wght@200;300;400;500;600;700&family=Montserrat+Alternates:ital,wght@1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,600;1,400;1,500&family=Numans&family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,700&family=Nunito:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;1,400&family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,500&family=Prompt:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600&family=Roboto+Mono:wght@400;500&family=Roboto:wght@300;400;500;700;900&family=Ubuntu:ital,wght@0,400;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>eXStore</title>
+  </head>
+  <body>
+    <div class="hero" id="he">
+      <div>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide position-absolute w-100 h-100"
+          data-bs-ride="carousel"
+        >
+          <!-- <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div> -->
+          <div class="carousel-inner position-relative h-100 w-100">
+            <div class="carousel-item active w-100 h-100">
+              <img
+                src="/gaming-web/assest/banner promotion.png"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item w-100 h-100">
+              <img
+                src="/gaming-web/assest/7494.jpg"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item w-100 h-100">
+              <img
+                src="/gaming-web/assest/17112767.jpg"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item w-100 h-100">
+              <img
+                src="/gaming-web/assest/7486.jpg"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item w-100 h-100">
+              <img
+                src="/gaming-web/assest/7476.jpg"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item w-100 h-100">
+              <img
+                src="/gaming-web/assest/f829582832044094499f3b3fa33c9a82.jpg"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-transparent pt-3">
+        <div class="container">
+          <a class="navbar-brand text-white" href="#"> <span>eX</span>Store</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars text-white border-white"></i>
+          </button>
+          <div
+            class="collapse text-sm-center navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+              <li class="nav-item ms-lg-4">
+                <a class="nav-link text-white-50" href="#sal">Browse Games</a>
+              </li>
+              <li class="nav-item ms-lg-3">
+                <a id="act" class="nav-link text-white-50" href="#he">Store</a>
+              </li>
+              <li class="nav-item ms-lg-3">
+                <a class="nav-link text-white-50" href="#orders">Orders</a>
+              </li>
+            </ul>
+            <button
+              class="best shadow-none me-4 px-4 py-2 btn text-white h-100 text-capitalize nk"
+            >
+              Sign up
+            </button>
+            <button
+              class="bet shadow-none me-4 px-4 py-2 btn text-white best bg-transparent h-100 text-capitalize"
+            >
+              Login
+            </button>
+          </div>
+        </div>
+      </nav>
+      <div class="lang container position-absolute mt-5 pt-5">
+        <div class="text text-white">
+          <h1 class="mb-4 pt-5">MultiVersus</h1>
+          <p>
+            Now officially free to play for all <br />
+            Xbox users.
+          </p>
+        </div>
+        <button
+          class="best hir text-center shadow-none me-4 btn text-white mt-5 mb-3 text-capitalize nk"
+        >
+          Sign up
+        </button>
+      </div>
+    </div>
+    <div class="about">
+      <div class="text text-center">
+        <h2 class="fw-bold">Why eXStore?</h2>
+        <p>
+          We are the official Xbox partner in Indonesia that <br />
+          provides official video games.
+        </p>
+      </div>
+      <div
+        class="cad container w-100 d-flex align-items-center flex-row justify-content-around"
+      >
+        <div class="play d-flex align-items-center flex-column">
+          <div class="bim rounded-circle">
+            <img class="img-fluid" src="/gaming-web/assest/p.svg" alt="" />
+          </div>
+          <h5 class="text-center">
+            5000+ video games <br />
+            available
+          </h5>
+        </div>
+        <div class="done d-flex align-items-center flex-column">
+          <div class="bim rounded-circle">
+            <img class="img-fluid" src="/gaming-web/assest/Vector.svg" alt="" />
+          </div>
+          <h5 class="text-center">
+            Trusted by 100.000+ <br />
+            customers
+          </h5>
+        </div>
+        <div class="xbox d-flex align-items-center flex-column">
+          <div class="bim rounded-circle">
+            <img class="img-fluid" src="/gaming-web/assest/box.svg" alt="" />
+          </div>
+          <h5 class="text-center">
+            Available for all Xbox <br />
+            consoles
+          </h5>
+        </div>
+      </div>
+    </div>
+    <div class="Ggeners container mt-5 py-5">
+      <div class="text d-flex align-items-center justify-content-between">
+        <h2 class="fw-bold text-lg-start text-center">Games Genres</h2>
+        <h5 class="text-end">See all genres</h5>
+      </div>
+      <div class="gcards mt-4">
+        <div class="st d-flex align-items-center">
+          <h6 class="mx-auto text-white">Strategy</h6>
+        </div>
+        <div class="f d-flex align-items-center">
+          <h6 class="mx-auto text-white">FPS</h6>
+        </div>
+        <div class="rp d-flex align-items-center">
+          <h6 class="mx-auto text-white">RPG</h6>
+        </div>
+        <div class="p d-flex align-items-center">
+          <h6 class="mx-auto text-white">Puzzle</h6>
+        </div>
+        <div class="r d-flex align-items-center">
+          <h6 class="mx-auto text-white">Role Playing</h6>
+        </div>
+
+        <div class="s d-flex align-items-center">
+          <h6 class="mx-auto text-white">Sports</h6>
+        </div>
+      </div>
+    </div>
+    <div id="sal" class="bgames container mt-5 py-5">
+      <div class="text d-flex align-items-center justify-content-between">
+        <h2 class="fw-bold text-lg-start text-center">Best Seller Games</h2>
+      </div>
+      <div class="gms mt-4">
+        <div class="mi card p-3" style="width: 18rem">
+          <div class="n">
+            <img
+              class="card-img-top img-fluid"
+              src="/gaming-web/assest/img thumbnail.png"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body mt-2">
+            <h6 class="text-start text-capitalize fs-5">minecraft</h6>
+            <div
+              class="info d-flex flex-row align-items-center justify-content-between"
+            >
+              <p class="price m-0">Rp 260.000</p>
+
+              <div
+                class="opn m-0 d-flex flex-row align-items-center justify-content-around"
+              >
+                <span>90%</span>
+                <p class="old-price">Rp 320.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="as card p-3" style="width: 18rem">
+          <div class="n">
+            <img
+              class="card-img-top img-fluid"
+              src="/gaming-web/assest/img thumbnail-1.png"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body mt-2">
+            <h6 class="text-start text-capitalize fs-5">Asphalt 9: Legends</h6>
+            <div
+              class="info d-flex flex-row align-items-center justify-content-between"
+            >
+              <p class="price-free">free to download</p>
+            </div>
+          </div>
+        </div>
+        <div class="wi card p-3" style="width: 18rem">
+          <div class="n">
+            <img
+              class="card-img-top img-fluid"
+              src="/gaming-web/assest/img thumbnail-2.png"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body mt-2">
+            <h6 class="text-start text-capitalize fs-5">The Witcher 3</h6>
+            <div
+              class="info d-flex flex-row align-items-center justify-content-between"
+            >
+              <p class="price">Rp 420.000</p>
+
+              <div
+                class="opn m-0 d-flex align-items-center flex-row justify-content-around"
+              >
+                <span>25%</span>
+                <p class="old-price">Rp 590.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sm card p-3" style="width: 18rem">
+          <div class="n">
+            <img
+              class="card-img-top img-fluid"
+              src="/gaming-web/assest/img thumbnail-3.png"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body mt-2">
+            <h6 class="text-start text-capitalize fs-5">Surving Mars</h6>
+            <div
+              class="info d-flex flex-row align-items-center justify-content-between"
+            >
+              <p class="price">Rp 440.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="pop" class="pop d-flex flex-column container mt-5 py-5">
+      <div class="text d-flex align-items-center justify-content-between">
+        <h2 class="fw-bold text-lg-start text-center">Popular Games</h2>
+        <h5 class="text-end">See all genres</h5>
+      </div>
+      <div class="gms mt-4">
+        <div class="mi card p-3" style="width: 18rem">
+          <div class="n">
+            <img
+              class="card-img-top img-fluid"
+              src="/gaming-web/assest/popGames/img thumbnail-6.png"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body mt-2">
+            <h6 class="text-start text-capitalize fs-5">GTA V</h6>
+            <div
+              class="info d-flex flex-row align-items-center justify-content-between"
+            >
+              <p class="price m-0">Rp 260.000</p>
+
+              <div
+                class="opn m-0 d-flex flex-row align-items-center justify-content-around"
+              >
+                <span>90%</span>
+                <p class="old-price">Rp 320.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="as card p-3" style="width: 18rem">
+          <div class="n">
+            <img
+              class="card-img-top img-fluid"
+              src="/gaming-web/assest/popGames/img thumbnail-1.png"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body mt-2">
+            <h6 class="text-start text-uppercase fs-5">roblox</h6>
+            <div
+              class="info d-flex flex-row align-items-center justify-content-between"
+            >
+              <p class="price-free">free to download</p>
+            </div>
+          </div>
+        </div>
+        <div class="wi card p-3" style="width: 18rem">
+          <div class="n">
+            <img
+              class="card-img-top img-fluid"
+              src="/gaming-web/assest/popGames/img thumbnail-2.png"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body mt-2">
+            <h6 class="text-start text-capitalize fs-5">NBA 2K22</h6>
+            <div
+              class="info d-flex flex-row align-items-center justify-content-between"
+            >
+              <p class="price">Rp 420.000</p>
+
+              <div
+                class="opn m-0 d-flex align-items-center flex-row justify-content-around"
+              >
+                <span>25%</span>
+                <p class="old-price">Rp 590.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sm card p-3" style="width: 18rem">
+          <div class="n">
+            <img
+              class="card-img-top img-fluid"
+              src="/gaming-web/assest/popGames/img thumbnail-3.png"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body mt-2">
+            <h6 class="text-start text-capitalize fs-5">dead by daylight</h6>
+            <div
+              class="info d-flex flex-row align-items-center justify-content-between"
+            >
+              <p class="price">Rp 440.000</p>
+            </div>
+          </div>
+        </div>
+        <div class="mi card p-3" style="width: 18rem">
+          <div class="n">
+            <img
+              class="card-img-top img-fluid"
+              src="/gaming-web/assest/popGames/img thumbnail-4.png"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body mt-2">
+            <h6 class="text-start text-capitalize fs-5">
+              ARK: survival evolved
+            </h6>
+            <div
+              class="info d-flex flex-row align-items-center justify-content-between"
+            >
+              <p class="price m-0">Rp 260.000</p>
+
+              <div
+                class="opn m-0 d-flex flex-row align-items-center justify-content-around"
+              >
+                <span>90%</span>
+                <p class="old-price">Rp 320.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="as card p-3" style="width: 18rem">
+          <div class="n">
+            <img
+              class="card-img-top img-fluid"
+              src="/gaming-web/assest/popGames/img thumbnail-5.png"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body mt-2">
+            <h6 class="text-start text-capitalize fs-5">rocket league</h6>
+            <div
+              class="info d-flex flex-row align-items-center justify-content-between"
+            >
+              <p class="price">Rp 420.000</p>
+
+              <div
+                class="opn m-0 d-flex align-items-center flex-row justify-content-around"
+              >
+                <span>25%</span>
+                <p class="old-price">Rp 590.000</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="wi card p-3" style="width: 18rem">
+          <div class="n">
+            <img
+              class="card-img-top img-fluid"
+              src="/gaming-web/assest/popGames/img thumbnail-6.png"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body mt-2">
+            <h6 class="text-start text-capitalize fs-5">forza horizon 5</h6>
+            <div
+              class="info d-flex flex-row align-items-center justify-content-between"
+            >
+              <p class="price-free">free to download</p>
+            </div>
+          </div>
+        </div>
+        <div class="sm card p-3" style="width: 18rem">
+          <div class="n">
+            <img
+              class="card-img-top img-fluid"
+              src="/gaming-web/assest/popGames/img thumbnail-7.png"
+              alt="Card image cap"
+            />
+          </div>
+          <div class="card-body mt-2">
+            <h6 class="text-start text-capitalize fs-5">cities: skylines</h6>
+            <div
+              class="info d-flex flex-row align-items-center justify-content-between"
+            >
+              <p class="price">Rp 440.000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="orders" class="orders mt-5 py-5">
+      <div class="container h-100 px-5">
+        <div class="text d-flex align-items-center justify-content-between">
+          <h2
+            class="fw-bold mb-sm-3 text-lg-start text-center text-capitalize text-white"
+          >
+            coming soon
+          </h2>
+        </div>
+        <div
+          class="flex d-flex h-100 px-5 gap-3 align-items-center justify-content-center flex-row"
+        >
+          <div
+            class="big d-flex flex-column gap-3 flex-sm-wrap align-items-center"
+          >
+            <div class="dbig position-relative">
+              <div
+                class="tex h-100 ps-3 pb-3 position-absolute d-flex flex-column align-items-start justify-content-end"
+              >
+                <h3 class="title text-white">
+                  Call of Duty®: Modern Warfare® II
+                </h3>
+                <button
+                  class="bet shadow-none px-4 py-2 btn text-white best bg-transparent text-capitalize"
+                >
+                  Pre-order now!
+                </button>
+              </div>
+              <img
+                src="/gaming-web/assest/Rectangle 3.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="dbig2 position-relative">
+              <div
+                class="tex h-100 ps-3 pb-3 position-absolute d-flex flex-column align-items-start justify-content-end"
+              >
+                <h3 class="title text-white">
+                  Call of Duty®: Modern Warfare® II
+                </h3>
+                <button
+                  class="bet shadow-none px-4 py-2 btn text-white best bg-transparent text-capitalize"
+                >
+                  Pre-order now!
+                </button>
+              </div>
+              <img
+                src="/gaming-web/assest/Rectangle 3-1.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div
+            class="small gap-3 d-flex flex-column flex-sm-wrap align-items-center"
+          >
+            <div class="dsmall position-relative">
+              <div
+                class="tex h-100 ps-3 pb-3 position-absolute d-flex flex-column align-items-start justify-content-end"
+              >
+                <h5 class="title text-white">
+                  EA SPORTS™ <br />
+                  FIFA 23
+                </h5>
+                <button
+                  class="bet shadow-none px-4 py-2 btn text-white best bg-transparent text-capitalize"
+                >
+                  Pre-order now!
+                </button>
+              </div>
+              <img
+                src="/gaming-web/assest/Rectangle 4.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="dsmall2 position-relative">
+              <div
+                class="tex h-100 ps-3 pb-3 position-absolute d-flex flex-column align-items-start justify-content-end"
+              >
+                <h5 class="title text-white">
+                  Resident Evil 4 - <br />
+                  Remake
+                </h5>
+                <button
+                  class="bet shadow-none px-4 py-2 btn text-white best bg-transparent text-capitalize"
+                >
+                  Pre-order now!
+                </button>
+              </div>
+              <img
+                src="/gaming-web/assest/Rectangle 4-1.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="dsmall3 position-relative">
+              <div
+                class="tex h-100 ps-3 pb-3 position-absolute d-flex flex-column align-items-start justify-content-end"
+              >
+                <h5 class="title text-white">
+                  ALIEN - Dark <br />
+                  Descent
+                </h5>
+                <button
+                  class="bet shadow-none px-4 py-2 btn text-white best bg-transparent text-capitalize"
+                >
+                  Pre-order now!
+                </button>
+              </div>
+              <img
+                src="/gaming-web/assest/Rectangle 4-2.png"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="reviwes my-5 py-5">
+      <div class="text text-center">
+        <h2 class="fw-bold">12.000+ gamers satisfied</h2>
+        <p>
+          Let's hear what our customers have to say about their <br />
+          satisfaction with our services and products.
+        </p>
+      </div>
+      <div
+        class="cad container w-100 mt-5 d-flex align-items-center flex-row justify-content-around gni"
+      >
+        <div class="jin d-flex align-items-center flex-column">
+          <div class="bim rounded-circle p-0">
+            <img
+              class="img-fluid"
+              src="/gaming-web/assest/Ellipse 5 (2).png"
+              alt=""
+            />
+          </div>
+          <h6 class="text-center">Jacob Jones</h6>
+          <img src="/gaming-web/assest/star.png" alt="" />
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel leo
+            vitae ipsum vestibulum porta.
+          </p>
+        </div>
+        <div class="jin nj d-flex align-items-center flex-column">
+          <div class="bim rounded-circle p-0">
+            <img
+              class="img-fluid"
+              src="/gaming-web/assest/Ellipse 5.png"
+              alt=""
+            />
+          </div>
+          <h5 class="text-center">Cameron Williamson</h5>
+          <img src="/gaming-web/assest/star (1).png" alt="" />
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel leo
+            vitae ipsum vestibulum porta.
+          </p>
+        </div>
+        <div class="jin d-flex align-items-center flex-column py-3">
+          <div class="bim rounded-circle p-0">
+            <img
+              class="img-fluid"
+              src="/gaming-web/assest/Ellipse 5 (1).png"
+              alt=""
+            />
+          </div>
+          <h6 class="text-center">Kristin Watson</h6>
+          <img src="/gaming-web/assest/star.png" alt="" />
+          <p class="text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel leo
+            vitae ipsum vestibulum porta.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="py-5 mt-5">
+      <div class="container">
+        <div class="logo pb-3">
+          <a class="navbar-brand text-white" href="#"> <span>eX</span>Store</a>
+        </div>
+        <div class="menu">
+          <div class="inf fs-5 text-capitalize text-white mb-2">menu</div>
+          <ul class="list-unstyled">
+            <li class="text-white-50"><a>order tracking</a></li>
+            <li class="text-white-50"><a>store location</a></li>
+            <li class="text-white-50"><a>return policy</a></li>
+            <li class="text-white-50"><a>support</a></li>
+          </ul>
+        </div>
+        <div class="res">
+          <div class="inf fs-5 text-capitalize mb-2 text-white">resources</div>
+          <ul class="list-unstyled">
+            <li class="text-white-50"><a>blog</a></li>
+            <li class="text-white-50"><a>help center</a></li>
+            <li class="text-white-50"><a>documentation</a></li>
+            <li class="text-white-50"><a>guidlines</a></li>
+          </ul>
+        </div>
+        <div class="medai">
+          <div class="inf fs-5 text-white">Follow us in :</div>
+          <div class="icons d-flex flex-row gap-4 mt-3">
+            <div class="icon">
+              <i class="fa-brands fa-twitch text-white-50"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-instagram text-white-50"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-youtube text-white-50"></i>
+            </div>
+            <div class="icon">
+              <i class="fa-brands fa-twitter text-white-50"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="container text-white" />
+      <p class="text-white-50 text-center">
+        © devloped by
+        <a href="https://github.com/unictos" target="_blank">Unictos</a>
+        and designed by odamastudio
+      </p>
+    </footer>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/gaming-web/app.js"></script>
+  </body>
+</html>
