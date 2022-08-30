@@ -127,27 +127,27 @@ a {
 
 .st {
   background: linear-gradient(0deg, rgba(0, 0, 0, -3.7), rgba(0, 0, 0, -3.7)),
-    url(/gaming-web/assest/g/bg-image.png);
+    url(/assest/g/bg-image.png);
 }
 .f {
   background: linear-gradient(0deg, rgba(0, 0, 0, -3.7), rgba(0, 0, 0, -3.7)),
-    url(/gaming-web/assest/g/bg-image-1.png);
+    url(/assest/g/bg-image-1.png);
 }
 .rp {
   background: linear-gradient(0deg, rgba(0, 0, 0, -3.7), rgba(0, 0, 0, -3.7)),
-    url(/gaming-web/assest/g/bg-image-2.png);
+    url(/assest/g/bg-image-2.png);
 }
 .p {
   background: linear-gradient(0deg, rgba(0, 0, 0, -3.7), rgba(0, 0, 0, -3.7)),
-    url(/gaming-web/assest/g/bg-image-3.png);
+    url(/assest/g/bg-image-3.png);
 }
 .r {
   background: linear-gradient(0deg, rgba(0, 0, 0, -3.7), rgba(0, 0, 0, -3.7)),
-    url(/gaming-web/assest/g/bg-image-4.png);
+    url(/assest/g/bg-image-4.png);
 }
 .s {
   background: linear-gradient(0deg, rgba(0, 0, 0, -3.7), rgba(0, 0, 0, -3.7)),
-    url(/gaming-web/assest/g/bg-image-5.png);
+    url(/assest/g/bg-image-5.png);
 }
 .gcards > div {
   background-position: center;
@@ -261,7 +261,7 @@ a {
   background: #0e0e0e;
 }
 
-[src="/gaming-web/assest/f829582832044094499f3b3fa33c9a82.jpg"] {
+[src="/assest/f829582832044094499f3b3fa33c9a82.jpg"] {
   transform: rotateY(180deg);
 }
 .big > div {
